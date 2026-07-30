@@ -2,7 +2,7 @@
     "name": "Claude Code CLI",
     "id": "claude-code",
     "version": "1.0.0",
-    "description": "Installs the Claude Code CLI globally",
+    "description": "Installs the Claude Code CLI globally via npm",
     "installsAfter": [
         "ghcr.io/devcontainers/features/node:2"
     ]
