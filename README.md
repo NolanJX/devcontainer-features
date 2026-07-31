@@ -11,5 +11,5 @@ Installs the Claude Code CLI globally via npm ([@anthropic-ai/claude-code](https
 **Test:**
 
 ```shell
-devcontainer features test -f claude-code --base-image mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+devcontainer features test -f claude-code --base-image mcr.microsoft.com/devcontainers/base:2.1.13-trixie
 ```
