@@ -17,8 +17,18 @@ Installs the Claude Code CLI globally via npm
 |-----|-----|-----|-----|
 | version | Version of @anthropic-ai/claude-code to install: a dist-tag (e.g. 'latest'), a specific version (e.g. '2.1.212'), or a version range (e.g. '~2.1.0'). | string | latest |
 | mattpocock-skills | Pre-install Matt Pocock's Skills. Requires setting CLAUDE_CODE_PLUGIN_SEED_DIR at runtime — see NOTES.md. | boolean | false |
+| superpowers | Pre-install Superpowers. Requires setting CLAUDE_CODE_PLUGIN_SEED_DIR at runtime — see NOTES.md. | boolean | false |
 
 ## Using pre-installed plugins
+
+Available plugins:
+
+- `mattpocock-skills`
+- `superpowers`
+
+**Recommended:** Do not enable `mattpocock-skills` and `superpowers` at the same time — Their use cases overlap and clash.
+
+The steps below use `mattpocock-skills` as an example:
 
 1. Add to `devcontainer.json`:
     ```json
@@ -31,13 +41,13 @@ Installs the Claude Code CLI globally via npm
       "CLAUDE_CODE_PLUGIN_SEED_DIR": "/opt/claude-seed"
     }
     ```
-2. Add to `.claude/settings.json`:
+2. Inside the container, add to `.claude/settings.json`:
     ```json
     "enabledPlugins": {
       "mattpocock-skills@claude-plugins-official": true
     }
     ```
-3. Run `/reload-plugins` in Claude Code.
+3. Inside the container, run `/reload-plugins` in Claude Code.
 
 For more, see [pre-populate-plugins-for-containers](https://code.claude.com/docs/en/plugin-marketplaces#pre-populate-plugins-for-containers).
 
