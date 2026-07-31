@@ -7,5 +7,14 @@
                 "mattpocock-skills": true
             }
         }
+    },
+    "with-superpowers": {
+        "image": "mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie",
+        "features": {
+            "claude-code": {
+                "version": "latest",
+                "superpowers": true
+            }
+        }
     }
 }

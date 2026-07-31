@@ -1,5 +1,12 @@
 ## Using pre-installed plugins
 
+Available plugins:
+
+- `mattpocock-skills`
+- `superpowers`
+
+**Recommended:** Do not enable `mattpocock-skills` and `superpowers` at the same time — Their use cases overlap and clash.
+
 1. Add to `devcontainer.json`:
     ```json
     "features": {
