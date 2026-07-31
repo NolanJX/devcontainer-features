@@ -1,7 +1,7 @@
 
 # Claude Code CLI (claude-code)
 
-Installs the Claude Code CLI globally via npm
+Installs the Claude Code CLI
 
 ## Example Usage
 
@@ -15,7 +15,7 @@ Installs the Claude Code CLI globally via npm
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of @anthropic-ai/claude-code to install: a dist-tag (e.g. 'latest'), a specific version (e.g. '2.1.212'), or a version range (e.g. '~2.1.0'). | string | latest |
+| version | Release channel ('latest' or 'stable') or a specific version (e.g. '2.1.212'). | string | latest |
 | mattpocock-skills | Pre-install Matt Pocock's Skills. Requires setting CLAUDE_CODE_PLUGIN_SEED_DIR at runtime — see NOTES.md. | boolean | false |
 | superpowers | Pre-install Superpowers. Requires setting CLAUDE_CODE_PLUGIN_SEED_DIR at runtime — see NOTES.md. | boolean | false |
 
