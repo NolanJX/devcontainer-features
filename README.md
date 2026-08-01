@@ -6,7 +6,7 @@ A collection of Dev Container Features.
 
 ### `claude-code`
 
-Installs the Claude Code CLI globally via npm ([@anthropic-ai/claude-code](https://www.npmjs.com/package/@anthropic-ai/claude-code)).
+Installs the Claude Code CLI via the official standalone installer.
 
 **Test:**
 

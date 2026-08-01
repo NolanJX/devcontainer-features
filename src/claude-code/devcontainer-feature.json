@@ -2,7 +2,7 @@
     "name": "Claude Code CLI",
     "id": "claude-code",
     "version": "1.4.0",
-    "description": "Installs the Claude Code CLI",
+    "description": "Installs the Claude Code CLI via the official standalone installer",
     "options": {
         "version": {
             "type": "string",

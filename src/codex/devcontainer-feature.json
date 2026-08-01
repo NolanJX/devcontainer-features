@@ -2,7 +2,7 @@
     "name": "Codex CLI",
     "id": "codex",
     "version": "1.0.0",
-    "description": "Installs the Codex CLI",
+    "description": "Installs the Codex CLI via the official standalone installer",
     "options": {
         "version": {
             "type": "string",
