@@ -1,7 +1,7 @@
 
 # Claude Code CLI (claude-code)
 
-Installs the Claude Code CLI
+Installs the Claude Code CLI via the official standalone installer
 
 ## Example Usage
 
