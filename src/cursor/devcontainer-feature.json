@@ -1,0 +1,6 @@
+{
+    "name": "Cursor CLI",
+    "id": "cursor",
+    "version": "1.0.0",
+    "description": "Installs the Cursor CLI via the official standalone installer"
+}
