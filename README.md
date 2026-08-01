@@ -27,3 +27,7 @@ devcontainer features test -f codex --base-image mcr.microsoft.com/devcontainers
 ## Development
 
 All feature install and test scripts are `644` (non-executable), consistent with [`devcontainers/feature-starter`](https://github.com/devcontainers/feature-starter).
+
+### Feature documentation
+
+Feature `README.md` files are generated — don't edit them by hand. The `Release` workflow uses `devcontainers/action` (`generate-docs: "true"`) to produce each `src/<feature>/README.md` from its `devcontainer-feature.json` and open a PR with the result. For notes the generator won't overwrite, use `src/<feature>/NOTES.md` — its content is merged into the generated README.
