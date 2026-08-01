@@ -23,3 +23,7 @@ Installs the Codex CLI via the official standalone installer.
 ```shell
 devcontainer features test -f codex --base-image mcr.microsoft.com/devcontainers/base:2.1.13-trixie
 ```
+
+## Development
+
+All feature install and test scripts are `644` (non-executable), consistent with [`devcontainers/feature-starter`](https://github.com/devcontainers/feature-starter).
