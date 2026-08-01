@@ -13,3 +13,13 @@ Installs the Claude Code CLI globally via npm ([@anthropic-ai/claude-code](https
 ```shell
 devcontainer features test -f claude-code --base-image mcr.microsoft.com/devcontainers/base:2.1.13-trixie
 ```
+
+### `codex`
+
+Installs the Codex CLI via the official standalone installer.
+
+**Test:**
+
+```shell
+devcontainer features test -f codex --base-image mcr.microsoft.com/devcontainers/base:2.1.13-trixie
+```
