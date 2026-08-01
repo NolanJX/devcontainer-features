@@ -1,0 +1,16 @@
+{
+    "name": "Codex CLI",
+    "id": "codex",
+    "version": "1.0.0",
+    "description": "Installs the Codex CLI",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select a Codex CLI version to install ('latest' or a specific version, e.g. '0.146.0')."
+        }
+    }
+}
