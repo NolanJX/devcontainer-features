@@ -16,6 +16,7 @@ jobs:
           - claude-code
           - codex
           - cursor
+          - mattpocock-skills
         baseImage:
           - mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
     steps:

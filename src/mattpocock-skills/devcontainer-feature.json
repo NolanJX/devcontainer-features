@@ -1,0 +1,9 @@
+{
+    "name": "Matt Pocock's Skills",
+    "id": "mattpocock-skills",
+    "version": "1.0.0",
+    "description": "Pre-installs Matt Pocock's Skills. Requires Node.js.",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/node:2"
+    ]
+}

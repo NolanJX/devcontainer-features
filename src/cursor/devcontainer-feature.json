@@ -1,16 +1,6 @@
 {
     "name": "Cursor CLI",
     "id": "cursor",
-    "version": "1.1.0",
-    "description": "Installs the Cursor CLI via the official standalone installer",
-    "options": {
-        "mattpocock-skills": {
-            "type": "boolean",
-            "default": false,
-            "description": "Pre-install Matt Pocock's Skills. Requires Node.js."
-        }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/node:2"
-    ]
+    "version": "1.2.0",
+    "description": "Installs the Cursor CLI via the official standalone installer"
 }

@@ -34,6 +34,16 @@ Installs the Cursor CLI via the official standalone installer.
 devcontainer features test -f cursor --base-image mcr.microsoft.com/devcontainers/base:2.1.13-trixie
 ```
 
+### `mattpocock-skills`
+
+Pre-installs Matt Pocock's Skills. Requires Node.js.
+
+**Test:**
+
+```shell
+devcontainer features test -f mattpocock-skills --base-image mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+```
+
 ## Development
 
 All feature install and test scripts are `644` (non-executable), consistent with [`devcontainers/feature-starter`](https://github.com/devcontainers/feature-starter).
