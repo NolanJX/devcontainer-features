@@ -11,11 +11,7 @@ Installs the Cursor CLI via the official standalone installer
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| mattpocock-skills | Pre-install Matt Pocock's Skills. Requires Node.js. | boolean | false |
 
 
 
