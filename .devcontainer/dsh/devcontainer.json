@@ -1,0 +1,7 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie",
+    "initializeCommand": "rm -rf .devcontainer/dsh/local-feature-dsh && cp -R src/dsh .devcontainer/dsh/local-feature-dsh",
+    "features": {
+        "./local-feature-dsh": {}
+    }
+}

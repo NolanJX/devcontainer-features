@@ -34,6 +34,23 @@ Installs the Cursor CLI via the official standalone installer.
 devcontainer features test -f cursor --base-image mcr.microsoft.com/devcontainers/base:2.1.13-trixie
 ```
 
+### `dsh`
+
+Installs the DeepSeek Harness. Requires Node.js. Requires VS Code — see NOTES.md.
+
+**Test:**
+
+```shell
+devcontainer features test -f dsh --base-image mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+```
+
+**Debug:**
+
+```shell
+devcontainer up --config .devcontainer/dsh/devcontainer.json
+devcontainer exec --config .devcontainer/dsh/devcontainer.json bash
+```
+
 ### `mattpocock-skills`
 
 Pre-installs Matt Pocock's Skills. Requires Node.js.

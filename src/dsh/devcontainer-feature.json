@@ -1,0 +1,19 @@
+{
+    "name": "DeepSeek Harness",
+    "id": "dsh",
+    "version": "1.0.0",
+    "description": "Installs the DeepSeek Harness. Requires Node.js. Requires VS Code — see NOTES.md.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select a dsh version to install ('latest' or a specific version, e.g. '0.1.0-rc.6')."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/node:2"
+    ]
+}
