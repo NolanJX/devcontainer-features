@@ -51,6 +51,16 @@ devcontainer up --config .devcontainer/dsh/devcontainer.json
 devcontainer exec --config .devcontainer/dsh/devcontainer.json bash
 ```
 
+### `pi-coding-agent`
+
+Installs the Pi Coding Agent. Requires Node.js.
+
+**Test:**
+
+```shell
+devcontainer features test -f pi-coding-agent --base-image mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+```
+
 ### `mattpocock-skills`
 
 Pre-installs Matt Pocock's Skills. Requires Node.js.

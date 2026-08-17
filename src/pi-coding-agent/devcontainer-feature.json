@@ -1,0 +1,19 @@
+{
+    "name": "Pi Coding Agent",
+    "id": "pi-coding-agent",
+    "version": "1.0.0",
+    "description": "Installs the Pi Coding Agent. Requires Node.js.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select a Pi Coding Agent version to install ('latest' or a specific version, e.g. '0.84.2')."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/node:2"
+    ]
+}
