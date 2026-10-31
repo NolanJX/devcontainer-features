@@ -1,8 +1,8 @@
 {
     "name": "DeepSeek Harness",
     "id": "dsh",
-    "version": "1.0.0",
-    "description": "Installs the DeepSeek Harness. Requires Node.js. Requires VS Code — see NOTES.md.",
+    "version": "1.1.0",
+    "description": "Installs the DeepSeek Harness. Requires Node.js >= 24.9. Requires VS Code — see NOTES.md.",
     "options": {
         "version": {
             "type": "string",

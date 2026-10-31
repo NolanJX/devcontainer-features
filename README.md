@@ -36,12 +36,12 @@ devcontainer features test -f cursor --base-image mcr.microsoft.com/devcontainer
 
 ### `dsh`
 
-Installs the DeepSeek Harness. Requires Node.js. Requires VS Code — see NOTES.md.
+Installs the DeepSeek Harness. Requires Node.js >= 24.9. Requires VS Code — see NOTES.md.
 
 **Test:**
 
 ```shell
-devcontainer features test -f dsh --base-image mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+devcontainer features test -f dsh --base-image mcr.microsoft.com/devcontainers/javascript-node:5.2.5-24-trixie
 ```
 
 **Debug:**

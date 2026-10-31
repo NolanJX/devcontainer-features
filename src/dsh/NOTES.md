@@ -1,10 +1,10 @@
 ## Prerequisites
 
-Requires Node.js. Pair it with the Dev Containers Node.js feature:
+Requires Node.js >= 24.9 ([why](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/upgrade-guide/v0.2.1-rc.2/node-24/guide.md)). Pair it with the Dev Containers Node.js feature:
 
 ```json
 "features": {
-  "ghcr.io/devcontainers/features/node:2": {},
+  "ghcr.io/devcontainers/features/node:2": { "version": "24" },
   "ghcr.io/NolanJX/devcontainer-features/dsh:1": {}
 }
 ```
@@ -19,6 +19,6 @@ DeepSeek Harness is in **Developer Preview**. Pin a specific version to avoid su
 
 ```json
 "ghcr.io/NolanJX/devcontainer-features/dsh:1": {
-  "version": "0.1.0-rc.6"
+  "version": "0.2.1-rc.5"
 }
 ```

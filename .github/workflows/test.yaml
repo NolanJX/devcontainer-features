@@ -12,15 +12,19 @@ jobs:
     continue-on-error: true
     strategy:
       matrix:
-        features:
-          - claude-code
-          - codex
-          - cursor
-          - dsh
-          - pi-coding-agent
-          - mattpocock-skills
-        baseImage:
-          - mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+        include:
+          - features: claude-code
+            baseImage: mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+          - features: codex
+            baseImage: mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+          - features: cursor
+            baseImage: mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+          - features: dsh
+            baseImage: mcr.microsoft.com/devcontainers/javascript-node:5.2.5-24-trixie
+          - features: pi-coding-agent
+            baseImage: mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
+          - features: mattpocock-skills
+            baseImage: mcr.microsoft.com/devcontainers/javascript-node:4.0.13-22-trixie
     steps:
       - uses: actions/checkout@v4
 
